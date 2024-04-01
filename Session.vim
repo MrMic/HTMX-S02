@@ -13,7 +13,7 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +42 app.js
+badd +32 app.js
 argglobal
 %argdel
 edit app.js
@@ -31,6 +31,9 @@ silent! normal! zE
 10,36fold
 9,36fold
 9,37fold
+40,44fold
+39,44fold
+39,45fold
 let &fdl = &fdl
 let s:l = 1 - ((0 * winheight(0) + 23) / 47)
 if s:l < 1 | let s:l = 1 | endif
