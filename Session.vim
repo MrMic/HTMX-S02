@@ -13,7 +13,7 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +32 app.js
+badd +34 app.js
 argglobal
 %argdel
 edit app.js
